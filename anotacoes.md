@@ -146,8 +146,3 @@ const nome = prompt("Qual seu nome?");
 const confirmacao = confirm("Tem certeza?");
 ```
 
----
-
-
----
-

@@ -71,3 +71,22 @@ console.log("Abra o DevTools → Console para ver estas mensagens");
 //   console.log("Usuário confirmou");
 // }
 
+/* 9. Variavel composta - Array */
+let num = [1,2,3,4,"carlos"]
+//console.log(num)
+//num[5]=10
+//console.log(num)
+//num.push(11)
+/*
+console.log(num)
+console.log(num.length)
+console.log(num.sort())
+console.log(num[0])
+for (let pos = 0 ; pos < num.length; pos++){
+  console.log(num[pos])
+}
+*/
+for(let pos in num){
+  console.log(num[pos])
+}
+console.log(num.indexOf(4))
